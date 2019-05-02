@@ -27,13 +27,13 @@ a:hover {
 html,
 body {
   height: 100%;
-  background-color:#0c0129;background-image:url(https://2.bp.blogspot.com/-rKPnynSUb8Q/XKYEttAN94I/AAAAAAAACTA/oNrJ5ZBcSDIWUk1eCH0JprxSrP1T8dfiQCLcBGAs/s1600/gallery-Image.jpg);background-position:center;background-size:cover;background-blend-mode:soft-light
+  /*background-color:#0c0129*/;background-image:url("image/img.jpg");background-position:center;background-size:cover;background-blend-mode:soft-light
 }
 
 body {
   display: -ms-flexbox;
   display: flex;
-  color: #fff;
+  color: #fff;font-family:'Oswald', Sans-Serif';
   text-shadow: 0 .05rem .1rem rgba(0, 0, 0, .5);
   box-shadow: inset 0 0 5rem rgba(0, 0, 0, .5);
 }
@@ -102,5 +102,5 @@ body {
  * Footer
  */
 .mastfoot {
-  color: rgba(255, 255, 255, .5);
+  color: #fff;
 }
